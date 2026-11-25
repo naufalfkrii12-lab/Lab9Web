@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #263238; }
+.container { max-width: 960px; margin: 30px auto; background: #fff; padding: 24px; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+header, footer { padding: 16px; background: #eaf2f8; border-radius: 4px; }
+header h1 { margin: 0 0 4px; font-size: 24px; }
+header p { margin: 0; color: #455a64; }
+nav { display: flex; flex-wrap: wrap; gap: 16px; padding: 14px 0; border-bottom: 1px solid #e0e6ea; }
+nav a { color: #145a86; text-decoration: none; padding: 4px 2px; }
+nav a:hover { text-decoration: underline; }
+nav a.active { font-weight: bold; border-bottom: 2px solid #145a86; }
+main { min-height: 220px; padding: 16px 0; }
+footer { text-align: center; font-size: 14px; }
+
+label { display: block; margin: 12px 0 4px; font-weight: bold; }
+input[type=text], input[type=email], textarea { width: 100%; max-width: 480px; padding: 8px; border: 1px solid #b0bec5; border-radius: 4px; font: inherit; }
+button, .btn { display: inline-block; padding: 8px 14px; margin-top: 14px; background: #145a86; color: #fff; border: 0; border-radius: 4px; text-decoration: none; cursor: pointer; font: inherit; }
+button:hover, .btn:hover { background: #0e4466; }
+.btn-secondary { background: #78909c; }
+.btn-danger { background: #c62828; }
+.btn-danger:hover { background: #8e1c1c; }
+.btn-small { padding: 4px 10px; margin: 0; font-size: 13px; }
+form.inline { display: inline; }
+
+.table-wrap { overflow-x: auto; }
+table.data { width: 100%; border-collapse: collapse; margin-top: 12px; }
+table.data th, table.data td { padding: 8px 10px; border: 1px solid #dde3e7; text-align: left; }
+table.data thead th { background: #eaf2f8; }
+td.aksi { white-space: nowrap; }
+
+.alert { padding: 10px 14px; border-radius: 4px; margin-bottom: 12px; }
+.alert-success { background: #e8f5e9; color: #1b5e20; border: 1px solid #a5d6a7; }
+.alert-error { background: #ffebee; color: #b71c1c; border: 1px solid #ef9a9a; }
+
+.card-stat { display: inline-block; padding: 16px 28px; background: #eaf2f8; border-radius: 6px; margin: 8px 0 16px; text-align: center; }
+.card-stat strong { display: block; font-size: 32px; color: #145a86; }
+code { background: #eef1f3; padding: 1px 5px; border-radius: 3px; }
